@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body>
+    <h1>My Contact Details</h1>
+    <p>My Fictional Address</p>
+    <p>080769220562</p>
+    <p>murpheey@capacitybay.com</p>
+    <hr>
+    <!-- this is my form with the action attribute of mailto my email address -->
+    <form action="mailto: enahmurphy2001@gmail.com" method="post" enctype="text/plain">
+        <label for="MyName">Name:</label>
+        <input type="text" required name="MyName"><br>
+        <br>
+        <label for="MyEmail">Email:</label>
+        <input type="Email" required name="MyEmail"><br><br>
+        <label for="MyPhone">Phone Number:</label>
+        <input type="Number" required name="MyPhone"><br>
+        <label for="MyGender">Gender:</label><br>
+        <input type="radio" name="MyGender">Male <br>
+        <input type="radio" name="MyGender">Female <br>
+        <input type="radio" name="MyGender">Prefer not say <br>
+        <label for="list">Do you want to signup for email list?</label><br>
+        <input type="radio" name="list">Yes
+        <input type="radio" name="list">No
+        <br>
+        <label for="Car">Favorite Car:</label><br>
+        <select name="Car" id="">
+            <option value="Select car" selected disabled name="" >Select car</option>
+            <option value="Volvo" name="Volvo" >Volvo</option>
+            <option value="Carmery" name="Carmery" >Carmery</option>
+            <option value="Honda" name="Honda" >Honda</option>
+        </select>
+        <br><br>
+        <textarea name="" id="" cols="30" placeholder="Drop me a message" rows="10"></textarea><br>
+        <!-- this is my reset and submit button -->
+        <button type="reset">Reset</button><br>
+        <button type="submit">Submit</button>
+        <br><br>
+        <!-- this link redirects you to homepage -->
+        <a href="index.html">Go back to Home</a>
+    </form>
+</body>
+</html>
